@@ -11,7 +11,7 @@ const PASSPORT_ID: &str = "pid";
 
 fn main() {
     // part one
-    // part_one();
+    part_one();
 
     // part two
     part_two();

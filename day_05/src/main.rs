@@ -2,8 +2,7 @@ use std::fs::File;
 use std::io::{BufRead, BufReader};
 
 fn main() {
-    // part_one();
-
+    part_one();
     part_two();
 }
 

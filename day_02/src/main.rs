@@ -4,8 +4,7 @@ use std::fs;
 fn main() {
     let contents = fs::read_to_string("input.txt").unwrap();
 
-    // part_1(&contents);
-
+    part_1(&contents);
     part_2(&contents);
 }
 

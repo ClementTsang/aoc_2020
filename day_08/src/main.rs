@@ -22,7 +22,7 @@ fn get_input_file() -> PathBuf {
     if let Some(file) = args.get(1) {
         Path::new(file).to_path_buf()
     } else {
-        "input.txt".into()
+        "day_08/input.txt".into()
     }
 }
 

@@ -1,6 +1,4 @@
 **/target/
-**/Cargo.lock
-Cargo.lock
 **/*.rs.bk
 
 **/input.txt
