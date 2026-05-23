@@ -6,8 +6,6 @@
 
 Note these are being done after 2020. Back in 2020, I actually did the first 7
 problems in Rust, but then gave up (I forget why, I think it was school-related)...
-but now I'm back! We had less problems in 2025, after all, so clearly that means
-it's time to catch up on previous years.
 
 ## Solutions
 
