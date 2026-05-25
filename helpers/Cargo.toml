@@ -1,7 +1,6 @@
 [package]
-name = "day_10"
+name = "helpers"
 version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-helpers = { workspace = true }
