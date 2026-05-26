@@ -31,7 +31,7 @@ fn num_occupied_simple(previous_state: &[Vec<char>], i: usize, j: usize) -> usiz
     num_occupied
 }
 
-fn part_1(input: &Path) {
+fn part_1(input: &Path) -> usize {
     let mut previous_state = std::fs::read_to_string(input)
         .unwrap()
         .lines()
@@ -67,11 +67,10 @@ fn part_1(input: &Path) {
         }
     }
 
-    let count: usize = previous_state
+    previous_state
         .iter()
         .map(|inner| inner.iter().filter(|c| **c == '#').count())
-        .sum();
-    println!("Part one: {count}");
+        .sum()
 }
 
 fn num_occupied_complex(previous_state: &[Vec<char>], i: usize, j: usize) -> usize {
@@ -111,7 +110,7 @@ fn num_occupied_complex(previous_state: &[Vec<char>], i: usize, j: usize) -> usi
     num_occupied
 }
 
-fn part_2(input: &Path) {
+fn part_2(input: &Path) -> usize {
     let mut previous_state = std::fs::read_to_string(input)
         .unwrap()
         .lines()
@@ -147,16 +146,26 @@ fn part_2(input: &Path) {
         }
     }
 
-    let count: usize = previous_state
+    previous_state
         .iter()
         .map(|inner| inner.iter().filter(|c| **c == '#').count())
-        .sum();
-    println!("Part two: {count}");
+        .sum()
 }
 
 fn main() {
     let input = get_input_file();
 
-    part_1(&input);
-    part_2(&input);
+    println!("Part one: {}", part_1(&input));
+    println!("Part two: {}", part_2(&input));
+}
+
+#[cfg(test)]
+mod test {
+    use super::*;
+
+    #[test]
+    fn example() {
+        assert_eq!(part_1(Path::new("example.txt")), 37);
+        assert_eq!(part_2(Path::new("example.txt")), 26);
+    }
 }

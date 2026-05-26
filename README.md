@@ -36,3 +36,5 @@ problems in Rust, but then gave up (I forget why, I think it was school-related)
 | [Day 23](https://adventofcode.com/2020/day/23) | [23](./day_23)       |
 | [Day 24](https://adventofcode.com/2020/day/24) | [24](./day_24)       |
 | [Day 25](https://adventofcode.com/2020/day/25) | [25](./day_25)       |
+
+From day 11 onward, you can verify things by running the test (`cargo test -p <DAY>`).
