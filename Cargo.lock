@@ -58,58 +58,100 @@ dependencies = [
 [[package]]
 name = "day_12"
 version = "0.1.0"
+dependencies = [
+ "helpers",
+]
 
 [[package]]
 name = "day_13"
 version = "0.1.0"
+dependencies = [
+ "helpers",
+]
 
 [[package]]
 name = "day_14"
 version = "0.1.0"
+dependencies = [
+ "helpers",
+]
 
 [[package]]
 name = "day_15"
 version = "0.1.0"
+dependencies = [
+ "helpers",
+]
 
 [[package]]
 name = "day_16"
 version = "0.1.0"
+dependencies = [
+ "helpers",
+]
 
 [[package]]
 name = "day_17"
 version = "0.1.0"
+dependencies = [
+ "helpers",
+]
 
 [[package]]
 name = "day_18"
 version = "0.1.0"
+dependencies = [
+ "helpers",
+]
 
 [[package]]
 name = "day_19"
 version = "0.1.0"
+dependencies = [
+ "helpers",
+]
 
 [[package]]
 name = "day_20"
 version = "0.1.0"
+dependencies = [
+ "helpers",
+]
 
 [[package]]
 name = "day_21"
 version = "0.1.0"
+dependencies = [
+ "helpers",
+]
 
 [[package]]
 name = "day_22"
 version = "0.1.0"
+dependencies = [
+ "helpers",
+]
 
 [[package]]
 name = "day_23"
 version = "0.1.0"
+dependencies = [
+ "helpers",
+]
 
 [[package]]
 name = "day_24"
 version = "0.1.0"
+dependencies = [
+ "helpers",
+]
 
 [[package]]
 name = "day_25"
 version = "0.1.0"
+dependencies = [
+ "helpers",
+]
 
 [[package]]
 name = "either"
