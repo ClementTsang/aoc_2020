@@ -5,7 +5,7 @@
 ---
 
 Note these are being done after 2020. Back in 2020, I actually did the first 7
-problems in Rust, but then gave up (I forget why, I think it was school-related)...
+problems, but then gave up (I forget why, I think it was school-related)...
 
 ## Solutions
 
