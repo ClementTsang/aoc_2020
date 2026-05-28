@@ -18,3 +18,15 @@ pub fn get_input_file() -> PathBuf {
         format!("{manifest_dir}/input.txt").into()
     }
 }
+
+/// Read the current input file and return a [`Vec`] of a given type based on `f`, the mapping function.
+pub fn read_to_vec<F, T>(input: &Path, f: F) -> Vec<T>
+where
+    F: Fn(&str) -> T,
+{
+    std::fs::read_to_string(input)
+        .unwrap()
+        .lines()
+        .map(f)
+        .collect()
+}
