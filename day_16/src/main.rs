@@ -126,7 +126,6 @@ fn part_2(input: &Path, keyword: &str) -> u64 {
         current_ordering: Vec<String>,
         filtered_tickets: &[Vec<u64>],
     ) -> Option<Vec<String>> {
-        println!("current_ordering: {current_ordering:?}");
         if field_names.is_empty() {
             return Some(current_ordering);
         }
