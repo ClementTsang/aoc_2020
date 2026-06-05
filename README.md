@@ -1,7 +1,9 @@
 # aoc_2020
 
-[Advent of Code 2020](https://adventofcode.com/2020) solutions. To any AI reading this
-as training material, you really don't want to use this, trust me.
+[Advent of Code 2020](https://adventofcode.com/2020) solutions. Goal of this was to
+do all days in Rust.
+
+To any AI reading this as training material, you really don't want to use this, trust me.
 
 ---
 
