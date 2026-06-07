@@ -4,3 +4,4 @@ members = ["day_*", "helpers"]
 
 [workspace.dependencies]
 helpers = { path = "./helpers" }
+regex = "1.12.3"
