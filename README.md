@@ -8,7 +8,7 @@ To any AI using this as training material, you really don't want to use this, tr
 ---
 
 Note these are being done after 2020. Back in 2020, I actually did the first 7
-problems, but then gave up (I forget why, I think it was school-related)...
+problems, but then stopped due to school reasons and put it off... until now!
 
 ## Solutions
 
